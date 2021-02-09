@@ -1,0 +1,41 @@
+<html lang="en">
+    <head>
+        <!-- Foundation compressed CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/foundation-sites@6.6.3/dist/css/foundation.min.css" integrity="sha256-ogmFxjqiTMnZhxCqVmcqTvjfe1Y/ec4WaRj/aQPvn+I=" crossorigin="anonymous">
+    </head>
+    <body>
+        <style>
+            .grid-frame.grid-frame--main{
+                align-items: center;
+                justify-content: center;
+            }
+
+            .cell.cell--main {
+                max-width: 400px;
+            }
+        </style>
+
+        <div class="grid-frame grid-y grid-frame--main">
+            <div class="cell cell--main">
+                <label for="url">Url:</label> <input id="url" type="text"/>
+                <div id="result" class="callout">&nbsp;</div>
+            </div>
+        </div>
+
+        <script>
+            const resultElement = document.getElementById('result');
+            const urlRegex = new RegExp('^(https?:\\/\\/)?'+ // protocol
+                '((([a-z\\d]([a-z\\d-]*[a-z\\d])*)\\.)+[a-z]{2,}|'+ // domain name
+                '((\\d{1,3}\\.){3}\\d{1,3}))'+ // OR ip (v4) address
+                '(\\:\\d+)?(\\/[-a-z\\d%_.~+]*)*'+ // port and path
+                '(\\?[;&a-z\\d%_.~+=-]*)?'+ // query string
+                '(\\#[-a-z\\d_]*)?$','i'); // fragment locator
+            document.getElementById('url').addEventListener('input', function (event) {
+                const isValid = urlRegex.test(event.currentTarget.value);
+                resultElement.innerText = isValid ? 'Valid' : 'Invalid';
+                resultElement.classList.remove('success', 'alert');
+                resultElement.classList.add(isValid ? 'success' : 'alert');
+            });
+        </script>
+    </body>
+</html>
