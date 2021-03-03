@@ -1,99 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8eff7e0e-b759-402f-9e16-6768149ad6cb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/code-comments.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/urlcheck/index.html" afterDir="false" />
+    <list default="true" id="8eff7e0e-b759-402f-9e16-6768149ad6cb" name="Default Changelist" comment="– Removed the westwing page dump&#10;– Added the url validation page">
+      <change afterPath="$PROJECT_DIR$/urlcheck/batch.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/1_3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/badge" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/badge_1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/badge_2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/banner_large_homepage" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/alice-min-common-desktop.82e2d48ca1bf1c2ef40a5d8e6627ed25.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/alice-min-cop-desktop.e7ef375dbc84645328ce4a5c75dab998.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicon.ico" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/BrandonTextWeb-Medium.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/BrandonTextWeb-Medium.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/BrandonTextWeb-Medium.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/BrandonTextWeb-Regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/BrandonTextWeb-Regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/BrandonTextWeb-Regular.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/ChronicleDisplay-Roman.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/ChronicleDisplay-Roman.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/ChronicleDisplay-Roman.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/WW_AppIcon_Google_512.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Westwing-Icons-819cf621d7d39da90c9df384544fac0b.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Westwing-Icons-819cf621d7d39da90c9df384544fac0b.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/Westwing-Icons-819cf621d7d39da90c9df384544fac0b.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/brandongrotesque-medium-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/brandongrotesque-medium-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/brandongrotesque-medium-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/brandongrotesque-regular-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/brandongrotesque-regular-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/brandongrotesque-regular-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/cardo-italic-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/cardo-italic-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/cardo-italic-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/cardo-regular-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/cardo-regular-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/cardo-regular-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/fontawesome-webfont.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/fontawesome-webfont.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/fontawesome-webfont.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/fontawesome-webfont.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/fontawesome-webfont.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/fontawesome-webfont_1.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/icomoon.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/icomoon.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/icon-alert--warning.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/icon-tick--success.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/ltc.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/ltc.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/ltc.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/manus.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/manus.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/manus.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/snowman.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/westwing-logo-new.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/fonts/westwing-now-logo-new.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/ajax-loader.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/apple-touch-icon.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/banner-apps.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/banner-facebook.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/banner-instagram2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/banner-pinterest.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/favicon-16x16.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/favicon-32x32.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/highlighter-dark@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/highlighter@2x.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/select-arrow-disabled.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/select-arrow.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/shippingcosts.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sprite-bg-1610568702.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sprite-btn-1610568702.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sprite-footer.desktop-1610569251453.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sprite-footer.phone-1610569251453.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sprite-input-new.desktop-1610569251453.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sprite-input.desktop-1610569251453.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sprite-modal.doi-1610569251453.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sprite-overlay.desktop-1610569251453.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sprite-overlay.phone-1610569251453.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sprite-ui-icons-1610569251453.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/sprite-xmas.desktop-1610569251453.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/westwing-lines-01.gif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/westwing-now-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/ww-newsletter-welcome-heart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/LAB.53fc2d6eecce0041f49e.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/campaignsSignupOverlay.5e2f4a97bdc64b8a01d2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ns.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/original_43" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/original_43_1" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,6 +12,13 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -121,13 +38,16 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TF_FMT" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -139,8 +59,17 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1612895251848</updated>
-      <workItem from="1612895253683" duration="2633000" />
+      <workItem from="1612895253683" duration="3095000" />
+      <workItem from="1614768183881" duration="253000" />
     </task>
+    <task id="LOCAL-00001" summary="– Removed the westwing page dump&#10;– Added the url validation page">
+      <created>1612898995363</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1612898995363</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -156,6 +85,11 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="– Removed the westwing page dump&#10;– Added the url validation page" />
+    <option name="LAST_COMMIT_MESSAGE" value="– Removed the westwing page dump&#10;– Added the url validation page" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

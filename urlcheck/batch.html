@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Batch URL validation</title>
+</head>
+<body>
+<p>Select local CSV File (records should be separated by "new line" character, columns by ';'):</p>
+<input id="csv" type="file">
+
+<output id="out">
+    file contents will appear here
+</output>
+<script>
+    var fileInput = document.getElementById("csv"),
+
+    readFile = function () {
+        var reader = new FileReader();
+        reader.onload = function () {
+            const result = reader.result;
+            var allTextLines = result.split(/\r\n|\n/);
+            const invalidLines = allTextLines.filter(line => !isCsvLineValid(line));
+            if (invalidLines.length) {
+                document.getElementById('out').innerHTML = `
+                <br/>
+                <br/>
+                <h3 style="font-size: 20px; color: red;">${invalidLines.length} items are invalid:<h3>
+
+                <br/>
+                <br/>
+                ${invalidLines.join('<br/><br/>')}
+            `;
+            } else {
+                document.getElementById('out').innerHTML = `${allTextLines.length} items are valid`;
+            }
+        };
+        // start reading the file. When it is done, calls the onload event defined above.
+        reader.readAsBinaryString(fileInput.files[0]);
+    };
+
+    fileInput.addEventListener('change', readFile);
+
+    function validURL(str) {
+        var pattern = new RegExp('^(https?:\\/\\/)?' + // protocol
+            '((([a-z\\d]([a-z\\d-]*[a-z\\d])*)\\.)+[a-z]{2,}|' + // domain name
+            '((\\d{1,3}\\.){3}\\d{1,3}))' + // OR ip (v4) address
+            '(\\:\\d+)?(\\/[-a-z\\d%_.~+]*)*' + // port and path
+            '(\\?[;&a-z\\d%_.~+=-]*)?' + // query string
+            '(\\#[-a-z\\d_]*)?$', 'i'); // fragment locator
+        return !!pattern.test(str);
+    }
+
+    function isCsvLineValid(string) {
+        const url = string.split(';').pop();
+        return validURL(url);
+    }
+</script>
+</body>
+</html>
