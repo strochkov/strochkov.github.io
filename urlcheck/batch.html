@@ -24,11 +24,22 @@
                 document.getElementById('out').innerHTML = `
                 <br/>
                 <br/>
-                <h3 style="font-size: 20px; color: red;">${invalidLines.length} items are invalid:<h3>
+                <h3 style="font-size: 20px; color: red;">Here's the list of invalid items:<h3>
 
                 <br/>
                 <br/>
-                ${invalidLines.join('<br/><br/>')}
+                <table>
+                ${invalidLines.map((line) => {
+                    return`
+                    <tr>
+                        ${line.split(';').map((field) => {
+                            return `
+                                <td style="border: 1px solid gray">${field}</td>
+                            `
+                        }).join('')}
+                    </tr>`
+                }).join('')}
+                </table>
             `;
             } else {
                 document.getElementById('out').innerHTML = `${allTextLines.length} items are valid`;
@@ -51,6 +62,9 @@
     }
 
     function isCsvLineValid(string) {
+        if (string.trim() === '') {
+            return true;
+        }
         const url = string.split(';').pop();
         return validURL(url);
     }

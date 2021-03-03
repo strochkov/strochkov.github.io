@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8eff7e0e-b759-402f-9e16-6768149ad6cb" name="Default Changelist" comment="– Removed the westwing page dump&#10;– Added the url validation page">
-      <change afterPath="$PROJECT_DIR$/urlcheck/batch.html" afterDir="false" />
+    <list default="true" id="8eff7e0e-b759-402f-9e16-6768149ad6cb" name="Default Changelist" comment="– Made a table">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/urlcheck/batch.html" beforeDir="false" afterPath="$PROJECT_DIR$/urlcheck/batch.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +60,7 @@
       <option name="presentableId" value="Default" />
       <updated>1612895251848</updated>
       <workItem from="1612895253683" duration="3095000" />
-      <workItem from="1614768183881" duration="253000" />
+      <workItem from="1614768183881" duration="1469000" />
     </task>
     <task id="LOCAL-00001" summary="– Removed the westwing page dump&#10;– Added the url validation page">
       <created>1612898995363</created>
@@ -69,7 +69,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612898995363</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="– Added batch validation">
+      <created>1614768457652</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1614768457652</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -89,7 +96,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="– Removed the westwing page dump&#10;– Added the url validation page" />
-    <option name="LAST_COMMIT_MESSAGE" value="– Removed the westwing page dump&#10;– Added the url validation page" />
+    <MESSAGE value="– Added batch validation" />
+    <MESSAGE value="– Made a table" />
+    <option name="LAST_COMMIT_MESSAGE" value="– Made a table" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
