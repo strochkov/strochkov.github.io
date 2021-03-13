@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8eff7e0e-b759-402f-9e16-6768149ad6cb" name="Default Changelist" comment="– Made a table">
-      <change afterPath="$PROJECT_DIR$/_removeme/test.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/margo/Startup Website Builder - Launchaco.htm" beforeDir="false" afterPath="$PROJECT_DIR$/margo/index.htm" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +59,7 @@
       <updated>1612895251848</updated>
       <workItem from="1612895253683" duration="3095000" />
       <workItem from="1614768183881" duration="6175000" />
+      <workItem from="1615645485548" duration="64000" />
     </task>
     <task id="LOCAL-00001" summary="– Removed the westwing page dump&#10;– Added the url validation page">
       <created>1612898995363</created>
