@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8eff7e0e-b759-402f-9e16-6768149ad6cb" name="Default Changelist" comment="– Made a table">
+      <change afterPath="$PROJECT_DIR$/_removeme/test.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/urlcheck/batch.html" beforeDir="false" afterPath="$PROJECT_DIR$/urlcheck/batch.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +41,6 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TF_FMT" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -60,7 +59,7 @@
       <option name="presentableId" value="Default" />
       <updated>1612895251848</updated>
       <workItem from="1612895253683" duration="3095000" />
-      <workItem from="1614768183881" duration="1469000" />
+      <workItem from="1614768183881" duration="6175000" />
     </task>
     <task id="LOCAL-00001" summary="– Removed the westwing page dump&#10;– Added the url validation page">
       <created>1612898995363</created>
@@ -76,7 +75,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614768457652</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="– Made a table">
+      <created>1614771161055</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1614771161055</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
